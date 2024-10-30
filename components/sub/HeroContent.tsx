@@ -20,12 +20,9 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
-          </h1>
+          
         </motion.div>
 
         <motion.div
@@ -33,12 +30,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-           Hey, I am
+           Hello, I am
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-             Abhyuday{" "}
+             Abhyudayaditya{" "}
             </span>
-            a Web developer
+            a Software Engineer based in India.
           </span>
         </motion.div>
 
@@ -46,14 +43,19 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack MERN developer I adeptly craft dynamic and scalable web solutions, leveraging a comprehensive skill set to deliver seamless user experiences. Check out my projects and skills.
+          I&apos;m a Full Stack developer and have expertise in problem solving. 
+          I adeptly craft dynamic and scalable web solutions, leveraging a comprehensive skill set to deliver seamless user experiences. 
+          I am passionate about building excellent software that improves the lives of those around me.
         </motion.p>
         <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          
+          
         >
-          Learn More!
+        
         </motion.a>
+        <button variants={slideInFromLeft(1)} className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+          Hire Me ->
+          </button>
       </div>
 
       <motion.div
