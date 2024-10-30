@@ -30,7 +30,7 @@ const skills = [
 
 const SkillText = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center">
+    <div className="w-full h-auto flex flex-col items-center justify-center px-4 sm:px-0">
       {/* Intro Section */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -59,18 +59,18 @@ const SkillText = () => {
         transition={{ duration: 0.5, delay: 1 }}
         className="cursive text-[30px] text-gray-200 mb-10 mt-[10px] text-center"
       >
-        Got a new idea ? Let's make it happen
+
       </motion.div>
 
       {/* Scrolling Skills Section */}
       <div className="relative w-full overflow-hidden py-5">
-        <motion.div
+        {/* <motion.div
           className="flex justify-around items-center whitespace-nowrap will-change-transform"
           initial={{ x: "100%" }}
           animate={{ x: ["100%", "-100%"] }}
           transition={{
             repeat: Infinity,
-            duration: 20,
+            duration: 10,
             ease: "linear",
           }}
         >
@@ -82,7 +82,7 @@ const SkillText = () => {
               {skill}
             </span>
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

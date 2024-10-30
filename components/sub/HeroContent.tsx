@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import HireMeButton from "./HireMeButton";
 import {
   slideInFromLeft,
   slideInFromRight,
@@ -53,11 +54,9 @@ const HeroContent = () => {
         >
         
         </motion.a>
-        <button variants={slideInFromLeft(1)} className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
-          Hire Me ->
-          </button>
+       <HireMeButton />
       </div>
-
+       
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"

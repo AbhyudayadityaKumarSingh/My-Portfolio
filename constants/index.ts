@@ -1,6 +1,28 @@
 export const Skill_data = [
-  
-
+  {
+    skill_name: "C",
+    Image: "/icons/c.gif",
+    width: 80,
+    height: 80
+  },
+  {
+    skill_name: "C++",
+    Image: "/icons/cpp.png",
+    width: 80,
+    height: 80,
+  },
+   {
+    skill_name: "Python",
+    Image: "/icons/python.png",
+    width: 80,
+    height: 80,
+   },
+  {
+    skill_name: "Java",
+    Image: "/icons/java.png",
+    width: 160,
+    height: 160,},
+       
 ];
 
 export const Socials = [
