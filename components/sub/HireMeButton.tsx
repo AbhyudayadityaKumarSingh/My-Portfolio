@@ -9,7 +9,7 @@ const slideInFromLeft = (duration: number) => ({
 
 const HireMeButton: React.FC = () => {
   return (
-    <Link href="https://cal.com/abhyuday31/15min" passHref>
+    <Link href="https://cal.com/abhyuday31/15min">
       <motion.button
         variants={slideInFromLeft(1)}
         initial="initial"

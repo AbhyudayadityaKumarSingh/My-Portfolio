@@ -57,9 +57,12 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer bottom */}
-        <div className="mt-[20px] text-[15px] text-center">
+       {/* Footer bottom */}
+       <div className="mt-[20px] text-[15px] text-center">
           &copy; Abhyudayaditya Kumar Singh {currentYear}
+        </div>
+        <div className="mt-[10px] text-[12px] text-center">
+          Abhyudayaditya&apos;s Portfolio
         </div>
       </div>
     </div>
