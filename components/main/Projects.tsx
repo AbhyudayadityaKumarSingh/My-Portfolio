@@ -25,7 +25,7 @@ const Projects = () => {
         />
         <ProjectCard
           src="/TravelWebsite.jpg"
-          title="Travel Website"
+          title="TravelGo"
           description="A captivating frontend travel website to inspire your next adventure."
           githubLink="https://github.com/AbhyudayadityaKumarSingh/Travel-Website"
         />
