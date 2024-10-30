@@ -34,7 +34,7 @@ const HeroContent = () => {
            Hello, I am
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-             Abhyudayaditya{" "}
+             Abhyudaya{" "}
             </span>
             a Software Engineer based in India.
           </span>
